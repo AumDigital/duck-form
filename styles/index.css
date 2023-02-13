@@ -2,7 +2,7 @@
     min-height: 100vh;
     background-color: #9DBEBB;
     display: flex;
-    text-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   
@@ -13,10 +13,11 @@
     max-width: 954px;
     width: 100%;
     min-height: 594px;
+    position: relative;
     background-color: #BE0909;
     border-radius: 8px;
-    padding: 50px;
     display: flex;
+    justify-content: flex-end;
 
 
 }
@@ -25,11 +26,14 @@
     max-width: 609px;
     width: 100%;
     max-height: 594px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
 }
+
+
 
 .label {
     max-width: 200px;
@@ -70,5 +74,30 @@
     line-height: 21px;
     align-self: center;
     
+
+}
+
+.yellow {
+    max-width: 345px;
+    width: 100%;
+    min-height: 594px;
+    background-color: #FFB039 ;
+    
+}
+
+.overlap-image {
+    max-width: 663px;
+    width: 100%;
+    min-height: 603px;
+    position: absolute; 
+    top: 50px;
+    left: 350px;
+
+    
+    
+
+    
+    
+
 
 }
