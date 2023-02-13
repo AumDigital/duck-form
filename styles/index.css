@@ -15,7 +15,7 @@
     min-height: 594px;
     position: relative;
     background-color: #BE0909;
-    border-radius: 8px;
+    border-radius: 20px;
     display: flex;
     justify-content: flex-end;
 
@@ -48,6 +48,9 @@
 .input-field {
     max-width: 400px;
     width:100%;
+    box-sizing: border-box;
+    border:0; 
+    border-bottom:1px solid #eee;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -73,7 +76,12 @@
     font-size: 18px;
     line-height: 21px;
     align-self: center;
+    cursor: pointer;
     
+}
+
+.submit-button:hover {
+        background-color: #10b6ed;
 
 }
 
