@@ -22,6 +22,7 @@
 
 }
 
+
 .details {
     max-width: 609px;
     width: 100%;
@@ -43,14 +44,16 @@
     font-size: 18px;
     line-height: 21px;
     color: #FEFFFF;
+    
 }
 
 .input-field {
-    max-width: 400px;
+    max-width: 500px;
     width:100%;
     box-sizing: border-box;
     border:0; 
     border-bottom:1px solid #eee;
+    margin-bottom: 20px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -59,6 +62,7 @@
     letter-spacing: 0.3em;
     background-color: #BE0909;
     color: #FEFFFF;
+    
 
 
 }
@@ -99,7 +103,7 @@
     min-height: 603px;
     position: absolute; 
     top: 50px;
-    left: 350px;
+    left: 375px;
 
     
     
